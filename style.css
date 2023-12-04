@@ -27,6 +27,7 @@ body {
 }
 
 /* class intoruced to the nav -> nav '.navigation-links-container' to make code function easier to understand*/
+/* class introduced to li -> li '.navigation-links-list' to give specification to the list being target */
 .header .navigation-links-container {
     padding-top: 15px;
     margin-right: 20px;
@@ -39,7 +40,7 @@ body {
     list-style-type: none;
 }
 
-.header .navigation-links-container ul .navigation-links-container {
+.header .navigation-links-container ul .navigation-links-list{
     display: inline-block;
     margin-left: 25px;
 }
@@ -62,12 +63,12 @@ p {
     background-position: center;
 }
 
-.float-left {
+.content-images-left {
     float: left;
     margin-right: 25px;
 }
 
-.float-right {
+.content-images-right {
     float: right;
     margin-left: 25px;
 }
