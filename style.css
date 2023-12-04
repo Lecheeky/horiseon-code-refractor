@@ -8,7 +8,7 @@ body {
     background-color: #d9dcd6;
 }
 
-/*navbar added instead of div to make it easier to understand the function of the code*/
+/*div class 'header' changed to header class 'header' to make it more semantic*/
 
 .header {
     padding: 20px;
@@ -26,6 +26,7 @@ body {
     color: #d9dcd6;
 }
 
+/* class intoruced to the nav -> nav '.navigation-links-container' to make code function easier to understand*/
 .header .navigation-links-container {
     padding-top: 15px;
     margin-right: 20px;
@@ -38,7 +39,7 @@ body {
     list-style-type: none;
 }
 
-.header .navigation-links-container ul li {
+.header .navigation-links-container ul .navigation-links-container {
     display: inline-block;
     margin-left: 25px;
 }
