@@ -4,15 +4,18 @@
 <head>
     <meta charset="UTF-8" />
     <link rel="stylesheet" href="style.css">
-    <title>website</title>
+    <!--title changed from 'website' to 'Horiseon: elevate online visibility' to make it more descriptive whilst keeping it concise-->
+    <title>Horiseon: elevate online visibility</title>
 </head>
 
 <body>
-    <div class="header">
-        <h1>Hori<span class="seo">seo</span>n</h1>
-        <div>
+    <!--div changed to header to make it more semantic-->
+    <header class="header">
+            <h1>Hori<span class="seo">seo</span>n</h1> 
+        <nav class="navigation-links-container">
             <ul>
                 <li>
+                    <!--added id to descriptive section, this link works now-->
                     <a href="#search-engine-optimization">Search Engine Optimization</a>
                 </li>
                 <li>
@@ -22,11 +25,12 @@
                     <a href="#social-media-marketing">Social Media Marketing</a>
                 </li>
             </ul>
-        </div>
-    </div>
+        </nav>
+    </header>
     <div class="hero"></div>
     <div class="content">
-        <div class="search-engine-optimization">
+        <!--id "search-engine-optimization" added to make link work and make page move down to the search-engine-optimization section on click-->
+        <div id="search-engine-optimization" class="search-engine-optimization">
             <img src="images/search-engine-optimization.jpg" class="float-left" />
             <h2>Search Engine Optimization</h2>
             <p>
