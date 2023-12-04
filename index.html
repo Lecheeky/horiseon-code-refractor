@@ -35,6 +35,7 @@
         <!--div changed to section and added headers to better represent what the information is telling us-->
         <section id="search-engine-optimization" class="search-engine-optimization">
             <!--alt added in each image in case image does not load-->
+            <!--classes of images changed from float 'left/right' to 'content-images-left/right' to make it more descriptive and less confusing with css code-->
             <img src="images/search-engine-optimization.jpg" alt="mind map showing attributes of SEO" class="content-images-left" />
             <header>
                 <h2>Search Engine Optimization</h2>
@@ -62,29 +63,38 @@
             </p>
         </section>
     </div>
-    <div class="benefits">
-        <div class="benefit-lead">
-            <h3>Lead Generation</h3>
+
+    <!--div changed to aside as a more semantic tag-->
+    <aside class="benefits">
+    <!--divs changed to section as a more semantic tag-->
+    <!--heading wrapped around each h3 tag to add additional meaning to the content in each section-->
+        <section class="benefit-lead">
+            <heading>
+                <h3>Lead Generation</h3>
+            </heading>
             <img src="images/lead-generation.png" />
             <p>
                 Inbound strategies for lead generation require less work for your business, bringing customers directly to your website.
             </p>
         </div>
-        <div class="benefit-brand">
-            <h3>Brand Awareness</h3>
+        <section class="benefit-brand">
+            <heading>
+                <h3>Brand Awareness</h3>
+            </heading>
             <img src="images/brand-awareness.png" />
             <p>
                 Users find your business through paid and organic searches, increasing the search ranking and visibility for your business.
             </p>
-        </div>
-        <div class="benefit-cost">
+        </section>
+        <section class="benefit-cost">
             <h3>Cost Management</h3>
             <img src="images/cost-management.png" ></img>
             <p>
                 As the search ranking for your business increases, your advertising costs decrease, and you no longer need to advertise your page.
             </p>
-        </div>
-    </div>
+        </section>
+    </aside>
+
     <div class="footer">
         <h2>Made with ❤️️ by Horiseon</h2>
         <p>

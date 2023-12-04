@@ -63,6 +63,8 @@ p {
     background-position: center;
 }
 
+/*class name '.float-left/right' has changed to '.content-images-left/right' to add more meaning to where the css is being applied to in the html file (under the content section)*/
+
 .content-images-left {
     float: left;
     margin-right: 25px;
@@ -88,54 +90,6 @@ p {
     height: 100%;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #2589bd;
-}
-
-.benefit-lead {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-
-.benefit-brand {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-
-.benefit-cost {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-
-.benefit-lead h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-
-.benefit-brand h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-
-.benefit-cost h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-
-.benefit-lead img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
-
-.benefit-brand img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
-
-.benefit-cost img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
 }
 
 .search-engine-optimization {
@@ -190,6 +144,28 @@ p {
 .social-media-marketing h2 {
     margin-bottom: 20px;
     font-size: 36px;
+}
+
+/* repeated code for each section in the aside tag is simplified by grouping them together */
+
+.benefit-lead, .benefit-brand, .benefit-cost {
+    margin-bottom: 32px;
+    color: #ffffff;
+}
+
+/* repeated code for each header in the aside tag is simplified by grouping them together */
+ 
+.benefit-lead h3, .benefit-brand h3, .benefit-cost h3{
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+/* repeated code for each image in the aside tag is simplified by grouping them together */
+
+.benefit-lead img, .benefit-brand img, .benefit-cost img{
+    display: block;
+    margin: 10px auto;
+    max-width: 150px;
 }
 
 .footer {
