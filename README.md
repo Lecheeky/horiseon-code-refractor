@@ -33,7 +33,9 @@ Cloning and accessing the Repository:
 3. copy our link or use the one provided here and select a folder you would like to put your code in
 [https://lecheeky.github.io/horiseon-code-refractor/]
 
-4. type git clone [https://lecheeky.github.io/horiseon-code-refractor/] into the folder you want access to and
+![image showing how to clone horiseon](images/git-cloning-horiseon.png)
+
+5. type git clone [https://lecheeky.github.io/horiseon-code-refractor/] into the folder you want access to and
 open with any code editor of your choice
 
 ## Contributing
@@ -49,3 +51,7 @@ Email: thadjlakehal@gmail.com
 Issue Tracker: GitHub Issues
 
 Thank you for your contribution to Horiseon's Front-End Web Development! Together, let's create exceptional digital experiences that elevate brands
+
+## License
+
+Made with ❤️️ by Horiseon © 2019 Horiseon Social Solution Services, Inc.
