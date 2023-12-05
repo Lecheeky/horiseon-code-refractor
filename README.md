@@ -35,7 +35,7 @@ Cloning and accessing the Repository:
 
 ![image showing how to clone horiseon](images/git-cloning-horiseon.png)
 
-5. type git clone [https://lecheeky.github.io/horiseon-code-refractor/] into the folder you want access to and
+4. type git clone [https://lecheeky.github.io/horiseon-code-refractor/] into the folder you want access to and
 open with any code editor of your choice
 
 ## Contributing
