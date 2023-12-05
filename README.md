@@ -22,7 +22,7 @@ Implement responsive design to ensure a positive user experience across devices.
 Integrate social media sharing features to amplify brand presence.
 Create visually engaging and shareable content for social media platforms.
 
-# Benefits with Horiseon
+#   Benefits with Horiseon
 
 Lead Generation - Inbound strategies for lead generation require less work for your business, bringing customers directly to your website.
 
