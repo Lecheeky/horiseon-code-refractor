@@ -38,11 +38,6 @@ Cloning and accessing the Repository:
 4. type git clone [https://lecheeky.github.io/horiseon-code-refractor/] into the folder you want access to and
 open with any code editor of your choice
 
-## Contributing
-
-This project exists thanks to all the people who [contribute].
-
-
 ## Contact Information
 
 For inquiries or assistance, please contact our development team:
